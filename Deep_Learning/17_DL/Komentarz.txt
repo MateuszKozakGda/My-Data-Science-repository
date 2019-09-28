@@ -1,0 +1,2 @@
+Dodano regularyzacjê L2 do sieci neuronowej,
+Stworzono klasê neural_network któr¹ mo¿na u¿ywaæ do wykonywania obliczeñ na sieciach neuronowych bez uzycia bias (bedzie dodany wkrotce)

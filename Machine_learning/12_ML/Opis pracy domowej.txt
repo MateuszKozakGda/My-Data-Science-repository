@@ -1,0 +1,2 @@
+ML_1 - regresja liniowa
+ML_logistic klasyfikacja, doda³em model random forest dla porównania oraz kkrzywe ROC jako wyznacznik jakosci modeli

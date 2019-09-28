@@ -1,0 +1,42 @@
+Tic Tac Toe
+I. Zadanie polega na stworzeniu gry w kó³ko i krzy¿yk. Program powinien byæ napisany w oparciu o klasê. 
+
+II. Za³o¿enia:
+1. Komputer zawsze jest kó³kiem a gracz krzy¿ykiem
+2. Wprowadzamy pozycjê kolejnego krzy¿yka jako wspó³rzêdne planszy (x,y)
+3. Ruchy komputera mog¹ byæ ca³kowicie randomowe
+4. Przyk³ad gry:
+
+Start
+----
+board = [[ , , ],
+	 [ , , ],
+	 [ , , ]]
+
+-----
+input = (1,3)
+
+board = [[ , ,X],
+	 [ , , ],
+	 [O, , ]]
+-----
+input = (2,3)
+
+board = [[O, ,X],
+	 [ , ,X],
+	 [O, , ]]
+-----
+input = (3,3)
+
+board = [[O, ,X],
+	 [ ,O,X],
+	 [O, ,X]]
+-----
+Player WIN !!!!!
+
+III. Nale¿y zawrzeæ konkretne metody/funkcjonalnoœci:
+1. Wyœwietlanie stanu gry
+2. Wprowadzanie pozycji krzy¿yka
+3. Sprawdzanie planszy pod k¹tem zwyciêskiej kombinacji
+4. Logowanie przebiegu gry do pliku(mo¿e byæ zwyk³y tekstowy) wedle w³asnego pomys³u.
+5. Zabezpieczenia przed wprowadzaniem nieprawid³owych wartoœci

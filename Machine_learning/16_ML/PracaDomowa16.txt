@@ -1,0 +1,8 @@
+1. Klasteryzacja
+1.1. Wykorzystuj¹c generator danych z sklearn'a(https://machinelearningmastery.com/generate-test-datasets-python-scikit-learn/) stworzyæ piêæ ró¿nych zbiorów.
+1.2. Przeprowadziæ klasteryzacjê GMM i KMeans.
+1.3. Wyniki przedstawiæ na wykresach.
+
+2. Przeprowadziæ generowanie wiekszej iloœci danych na zbiorze https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html
+
+3. Powtórzyæ materia³ do testu ;)

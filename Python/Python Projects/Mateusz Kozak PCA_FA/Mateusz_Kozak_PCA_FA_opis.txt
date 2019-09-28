@@ -1,0 +1,14 @@
+Zrobi³em analizê czynnikow¹ dwoma metodami:
+1. Factor Analysis 
+2. Pricipal Component Analysis
+
+W obu przypadkach algorytm obliczeñ by³ podobny tzn:
+1. Dane zosta³y wyselekcjonowane z g³ownej tabeli.
+2. Nastepnie zosta³y wystandaryzowane  za pomoc¹ funckji StandardScaller (tzw centralizacja), 
+dziêki czemu wszystkie 
+zosta³y zrównane do podobnych wartosci oraz maja rozklad normalny.
+3. Ilosc komponentów zosta³a wybierana iteracyjnie -> czyli tak aby jak najmniejsza ilosc 
+komponentonentówpokryla jak najwiecej wariancji.
+4.Wynik analizy PCA daje ciekwsze wyniki korelacji z danymi pierwotnymi ni¿ Factor Analysis!
+
+Musimy to omowic na projekcie.

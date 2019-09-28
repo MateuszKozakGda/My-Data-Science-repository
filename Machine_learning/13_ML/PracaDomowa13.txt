@@ -1,0 +1,11 @@
+Wykorzystuj¹c zestaw danych Iris z modu³u sklearn,
+przeprowadŸ porównanie skutecznoœci klasyfikatorów Random Forest oraz KNN w zale¿noœci od iloœci wykorzystanych cech.
+
+Wymagania:
+- porównujemy dla wybranych 2,3 oraz 4 cech
+- dzielimy dane na treningowe oraz testowe w stosunku 9:1
+
+Wskazówki:
+from sklearn import datasets
+iris = datasets.load_iris()
+X = iris.data[:, :2]  # dwie pierwsze cechy

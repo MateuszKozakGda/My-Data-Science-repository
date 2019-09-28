@@ -1,0 +1,5 @@
+Klasyfikacja siecią konwolucyjną.
+1. Pobrać i wczytać zbiór danych https://www.kaggle.com/zalando-research/fashionmnist
+2. Stworzyć w tensorflow/keras sieć konwolucyjną. Może być prosta, ale warto popróbować z kilkoma wielkościami.
+3. Wykonać trening i walidację. Keras umożliwia w metodzie fit podać dane walidacyjne.
+4. Wyniki zaprezentować w tensorboardzie. Wrzucić pliki zapisywane podczas treningu i walidacji.
