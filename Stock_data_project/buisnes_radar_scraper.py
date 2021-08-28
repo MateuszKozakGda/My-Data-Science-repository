@@ -98,9 +98,9 @@ class Biznes_radar_scraper(object):
         if conection_flag:
             try:
                 while self.i < self._get_last_page_number(self.soup):
-                    if self.i==1:
-                        pass
-                    else:
+                    print(self._get_last_page_number(self.soup))
+                    print(self.i)
+                    if self.i!=1:
                         self.new_url = url+","+str(self.i)
                         self.page = requests.get(self.new_url)
                         self.soup = BeautifulSoup(self.page.content, "html.parser")
@@ -124,7 +124,7 @@ class Biznes_radar_scraper(object):
                             continue
                     
                         db.commit()
-                        self.i+=1
+                    self.i+=1
             except sqlite3.IntegrityError:
                 print("=====Database has been updated!!=====\n")
                 print(f"=====Last recorded date is: {self.date}=====")
