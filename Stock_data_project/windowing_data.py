@@ -3,6 +3,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 class WindowGenerator(object):
+    """
+    Based on: https://www.tensorflow.org/tutorials/structured_data/time_series
+    """
+    
     def __init__(self, sequnce_lengh, n_future, shift,
                 train_df, test_df=None, val_df=None,
                 label_columns=None):
