@@ -149,7 +149,7 @@ class Add_stock_indicators(object):
         df["trix"]= df[column_close].ewm(ignore_na=False, min_periods=0, com=period, adjust=True).mean()
         df["trix"] = df["trix"].ewm(ignore_na=False, min_periods=0, com=period, adjust=True).mean()
         df["trix"] = df["trix"].ewm(ignore_na=False, min_periods=0, com=period, adjust=True).mean()
-        df["trix_signal"] = df["trix"].ewm(ignore_na=False, min_periods=0, com=signal_periods, adjust=True).mean()
+        df["trix_signal"] = df["trix"].ewm(ignore_na=False, min_periods=0, com=signal, adjust=True).mean()
         
         return df
     
