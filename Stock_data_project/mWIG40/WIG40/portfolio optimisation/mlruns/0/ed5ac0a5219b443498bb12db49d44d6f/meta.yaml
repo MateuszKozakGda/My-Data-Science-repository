@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mateusz/Desktop/Moje_repo/My-Data-Science-repository/Stock_data_project/mWIG40/WIG40/portfolio%20optimisation/mlruns/0/ed5ac0a5219b443498bb12db49d44d6f/artifacts
+end_time: 1656612322936
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: ed5ac0a5219b443498bb12db49d44d6f
+run_uuid: ed5ac0a5219b443498bb12db49d44d6f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1656612322923
+status: 3
+tags: []
+user_id: mateusz
